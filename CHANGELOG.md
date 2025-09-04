@@ -9,7 +9,7 @@ Inspired from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Deprecated
 ### Removed
 ### Fixed
-- Fixed scrolling triggers deprecation error ([#163](https://github.com/opensearch-project/opensearch-php/issues/163), [#PR_NUMBER](https://github.com/opensearch-project/opensearch-php/pull/PR_NUMBER))
+- Fixed scrolling triggers deprecation error ([#163](https://github.com/opensearch-project/opensearch-php/issues/163), [#356](https://github.com/opensearch-project/opensearch-php/pull/356))
 ### Security
 ### Updated APIs
 
