@@ -20,7 +20,7 @@ jobs:
           - { opensearch_ref: "main", java: 21, gradle-runtime: 21 }
     steps:
       - name: Checkout PHP Client
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Use PHP 8.3
         uses: shivammathur/setup-php@v2
@@ -35,7 +35,7 @@ jobs:
           composer install --prefer-dist
 
       - name: Checkout OpenSearch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: opensearch-project/OpenSearch
           ref: ${{ matrix.entry.opensearch_ref }}
