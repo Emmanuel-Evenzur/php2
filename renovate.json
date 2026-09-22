@@ -4,5 +4,14 @@
     "psr/http-client-implementation",
     "psr/http-factory-implementation",
     "psr/http-message-implementation"
+  ],
+  "packageRules": [
+    {
+      "description": "composer.json is a library: widen OR-ranges like ^6.4|^7.0 instead of replacing them",
+      "matchManagers": [
+        "composer"
+      ],
+      "rangeStrategy": "widen"
+    }
   ]
 }
