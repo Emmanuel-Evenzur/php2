@@ -32,7 +32,7 @@
     "psr/http-factory-implementation": "*",
     "psr/http-message": "^2.0",
     "psr/http-message-implementation": "*",
-    "psr/log": "^2|^3",
+    "psr/log": "^2 || ^3",
     "symfony/yaml": "*"
   },
   "require-dev": {
@@ -48,8 +48,8 @@
     "phpstan/phpstan-mockery": "^1.1",
     "phpstan/phpstan-phpunit": "^1.4",
     "phpunit/phpunit": "^9.6",
-    "symfony/finder": "^6.4|^7.0",
-    "symfony/http-client": "^6.4|^7.0",
+    "symfony/finder": "^6.4 || ^7.0",
+    "symfony/http-client": "^6.4 || ^7.0",
     "symfony/http-client-contracts": "^3.0"
   },
   "suggest": {
