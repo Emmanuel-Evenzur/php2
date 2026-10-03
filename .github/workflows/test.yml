@@ -58,7 +58,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       search-server:
-        image: opensearchproject/opensearch:2.13.0
+        image: opensearchproject/opensearch:2.19.6
         ports:
           - 9200:9200
         env:
